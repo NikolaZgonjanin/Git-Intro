@@ -18,7 +18,5 @@ _These lessons can be found in the [Foundations Path](https://www.theodinproject
 
 ### Intermediate Git
 
-_These lessons can be found in the [Full Stack JavaScript path](https://www.theodinproject.com/paths/full-stack-javascript) and the [Full Stack Ruby on Rails path](https://www.theodinproject.com/paths/full-stack-ruby-on-rails)_
-
 1. [A Deeper Look at Git](intermediate_git/a_deeper_look_at_git.md)
 2. [Using Git in the Real World](intermediate_git/using_git_in_the_real_world.md)
