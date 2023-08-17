@@ -90,13 +90,6 @@ There will come a time when you are working on a project and you FINALLY get som
 -   Avoid using vague commit messages such as "saved" or "updated"
 -   Commit early and often!
 
-### Knowledge check
-
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
-
-*   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#intro">What are two benefits of having well-written commit messages and a good commit history?</a>
-*   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#limit-50">How many characters should the subject line of your commit message be?</a>
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.

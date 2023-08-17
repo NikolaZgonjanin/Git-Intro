@@ -190,22 +190,6 @@ In later Git lessons, we will cover some of the more advanced Git features, such
 
 For now, concentrate on using the basics of Git that you've learned here for all of your projects from now on. You will soon know each of the basic Git commands from memory!
 
-### Knowledge check
-
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
-
--   [How do you create a new repository on GitHub?](#new-github-repo)
--   [How do you copy a repository onto your local machine from GitHub?](#github-to-local)
--   [What is the default name of your remote connection?](#default-remote)
--   [Explain what `origin` is in `git push origin main`.](#origin-push)
--   [Explain what `main` is in `git push origin main`.](#main-push)
--   [Explain the two-stage system that Git uses to save files.](#two-stages)
--   [How do you check the status of your current repository?](#git-status)
--   [How do you add files to the staging area in git?](#git-add)
--   [How do you commit the files in the staging area and add a descriptive message?](#git-commit)
--   [How do you push your changes to your repository on GitHub?](#git-push)
--   [How do you look at the history of your previous commits?](#git-log)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
