@@ -86,7 +86,7 @@ If the version number is less than 2.28, follow the instructions again. If you a
 
 1.  Run `brew doctor`
 2.  You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
-![Brew Doctor Sample Output](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
+![Brew Doctor Sample Output](/foundations_git/setting_up_git/imgs/00.png)
 3.  Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
 
 </details>
@@ -105,7 +105,7 @@ You will need to install Git from the source by following the instructions from 
 
 Go to [GitHub.com](https://github.com/) and create an account! During the account setup, it will ask you for an email address. This needs to be a real email, and will be used by default to identify your contributions. If you are privacy conscious, or just don't want your email address to be publicly available, make sure you tick the following two boxes on the [Email Settings](https://github.com/settings/emails) page after you have signed in:
 
-![GitHub Email Settings](https://cdn.statically.io/gh/TheOdinProject/curriculum/770be14190139683dbe9933ca5e9393c797c63f2/foundations/installations/setting_up_git/imgs/01.png)
+![GitHub Email Settings](/foundations_git/setting_up_git/imgs/01.png)
 
 Having these two options enabled will prevent you accidentally exposing your personal email address when working with Git and GitHub.
 
@@ -125,7 +125,7 @@ git config --global user.email "yourname@example.com"
 If you opted to use the private GitHub email address, the second command will look something like this:
 
 ~~~bash
-git config --global user.email "123456789+odin@users.noreply.github.com" # Remember to use your own private GitHub email here.
+git config --global user.email "142506914+RAF-Student@users.noreply.github.com" # Remember to use your own private GitHub email here.
 ~~~
 
 GitHub recently changed the default branch on new repositories from `master` to `main`. Change the default branch for Git using this command:
@@ -140,7 +140,7 @@ To enable colorful output with `git`, type
 git config --global color.ui auto
 ~~~
 
-You'll also likely want to set your default branch reconciliation behavior to merging. You'll learn what all those terms mean later in the curriculum, but for now just know that we suggest running the below command as part of the Git setup process when doing The Odin Project.
+You'll also likely want to set your default branch reconciliation behavior to merging. You'll learn what all those terms mean later in this lesson, but for now just know that we suggest running the below command as part of the Git setup process.
 
 ~~~bash
 git config --global pull.rebase false
@@ -174,7 +174,7 @@ If a message appears in the console containing the text "No such file or directo
 
 To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are.
 
-**Note:** The angle brackets (`< >`) in the code snippet below indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in your command. For example, if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -t ed25519 -C odin@theodinproject.com`. You will see this convention of using angle brackets to indicate placeholder text used throughout The Odin Project's curriculum and other coding websites, so it's good to be familiar with what it means.
+**Note:** The angle brackets (`< >`) in the code snippet below indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in your command. For example, if your email address is `rafstudent@raf.rs`, then you would type `ssh-keygen -t ed25519 -C rafstudent@raf.rs`. You will see this convention of using angle brackets to indicate placeholder text used throughout the curriculum and other coding websites, so it's good to be familiar with what it means.
 
 ~~~bash
 ssh-keygen -t ed25519 -C <youremail>
@@ -203,11 +203,11 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 #### Step 2.5 Testing your key
 
-Follow the directions in [this article from GitHub](https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection **(Don't forget to omit the `$` when you copy and paste the code!)**. You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/fbFCkYabZB) to ask for help.
+Follow the directions in [this article from GitHub](https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection **(Don't forget to omit the `$` when you copy and paste the code!)**. You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again.
 
-### Step 3: Let us know how it went!
+### Step 3: You're done!
 
-You've completed the basic installations section, good job! As you progress through the Paths there will be other tools to install, so keep an eye out!
+You've completed the basic installations section, good job! As you progress with your programming journey there will be other tools to install, so keep an eye out!
 
 You probably felt like you were way in over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.
 
