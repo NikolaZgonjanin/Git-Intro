@@ -45,7 +45,7 @@ Before we get started with the lesson, let's create a Git playground in which we
 
 To perform certain Git commands that require opening a text editor, such as `git commit --amend` and `git rebase -i`, it's important to configure your code editor correctly. By default, Git opens the text editor in the command-line interface (CLI), which may prevent you from saving and closing the editor after making changes.
 
-To set up your code editor properly, you can follow the instructions provided in the Git Basics lesson. Here's the specific section that covers the process: [Changing the Git Commit Message Editor](/foundations_git/git_basics.md#changing-the-git-commit-message-editor).
+To set up your code editor properly, you can follow the instructions provided in the Git Basics lesson. Here's the specific section that covers the process: [Changing the Git Commit Message Editor](/git_basics.md#changing-the-git-commit-message-editor).
 
 #### Changing the last commit
 
@@ -184,7 +184,7 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 ### Branches are pointers
 
-Before we dive into branches, let's talk about commits. If you recall this [Git basics lesson from foundations](/foundations_git/git_basics.md), they were described as Snapshots. If it helps, think of this in a very literal sense. Every time you type in `git commit`, your computer is taking a picture of all the file contents that have been staged with `git add`. In other words, your entire tracked workspace gets copied.
+Before we dive into branches, let's talk about commits. If you recall this [Git basics lesson from foundations](/git_basics.md), they were described as Snapshots. If it helps, think of this in a very literal sense. Every time you type in `git commit`, your computer is taking a picture of all the file contents that have been staged with `git add`. In other words, your entire tracked workspace gets copied.
 
 So what is a branch? **A branch is actually a pointer to a single commit!** Hearing this, your first thought might be *"Well if a branch is just a finger pointing at a single commit, how does that single commit know about all the commits that came before it?"* The answer to this question is very simple: Each commit is also a pointer that points to the commit that came before it! Wow. This might be a lot to take in, so let's take a moment to absorb that fact.
 

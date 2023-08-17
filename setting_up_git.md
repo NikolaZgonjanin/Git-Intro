@@ -86,7 +86,7 @@ If the version number is less than 2.28, follow the instructions again. If you a
 
 1.  Run `brew doctor`
 2.  You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
-![Brew Doctor Sample Output](/foundations_git/setting_up_git/imgs/00.png)
+![Brew Doctor Sample Output](/setting_up_git/imgs/00.png)
 3.  Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
 
 </details>
@@ -105,7 +105,7 @@ You will need to install Git from the source by following the instructions from 
 
 Go to [GitHub.com](https://github.com/) and create an account! During the account setup, it will ask you for an email address. This needs to be a real email, and will be used by default to identify your contributions. If you are privacy conscious, or just don't want your email address to be publicly available, make sure you tick the following two boxes on the [Email Settings](https://github.com/settings/emails) page after you have signed in:
 
-![GitHub Email Settings](/foundations_git/setting_up_git/imgs/01.png)
+![GitHub Email Settings](setting_up_git/imgs/01.png)
 
 Having these two options enabled will prevent you accidentally exposing your personal email address when working with Git and GitHub.
 
